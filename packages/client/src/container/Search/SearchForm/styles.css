@@ -1,0 +1,41 @@
+.button-primary {
+    background: linear-gradient(90deg, #4f46e5, #6366f1);
+    color: white;
+    padding: 4px 9px !important;
+    font-size: 1rem;
+    border: none;
+    border-radius: 1rem !important;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+    font-weight: 700;
+}
+
+.button-primary:hover {
+    background: linear-gradient(90deg, #4338ca, #4f46e5);
+}
+
+.button-primary:disabled {
+    background: #a5b4fc;
+    cursor: not-allowed;
+}
+
+.button-secondry {
+    background: linear-gradient(90deg, #6c757d, #6c757d);
+    color: white;
+    padding: 4px 9px !important;
+    font-size: 1rem;
+    border: none;
+    border-radius: 1rem !important;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+    font-weight: 700;
+}
+
+.button-secondry:hover {
+    background: linear-gradient(90deg, #6c757d, #6c757d);
+}
+
+.button-secondry:disabled {
+    background: #a5b4fc;
+    cursor: not-allowed;
+}

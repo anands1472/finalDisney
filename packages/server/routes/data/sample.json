@@ -1,0 +1,332 @@
+{
+  "recipientOptions": [
+    {
+      "label": "Provider Only",
+      "value": "Provider Only"
+    },
+    {
+      "label": "Provider w/Beneficiary Copy",
+      "value": "Provider w/Beneficiary Copy"
+    },
+    {
+      "label": "Beneficiary Only",
+      "value": "Beneficiary Only"
+    },
+    {
+      "label": "Beneficiary w/Provider Copy",
+      "value": "Beneficiary w/Provider Copy"
+    },
+    {
+      "label": "Other Only",
+      "value": "Other Only"
+    },
+    {
+      "label": "Other w/Provider Copy",
+      "value": "Other w/Provider Copy"
+    },
+    {
+      "label": "Other w/Beneficiary Copy",
+      "value": "Other w/Beneficiary Copy"
+    }
+  ],
+  "LetterDisposition": [
+    {
+      "disposition": "Appeals Closing",
+      "loc": "071",
+      "team": "Appeals"
+    },
+    {
+      "disposition": "General Information closing",
+      "loc": "077",
+      "team": "Appeals"
+    },
+    {
+      "disposition": "MSP (finalized)",
+      "loc": "074",
+      "team": "CustomerService"
+    },
+    {
+      "disposition": "JH/JL letters (finalized)",
+      "loc": "075",
+      "team": "CustomerService"
+    },
+    {
+      "disposition": "JN Letters (finalized)",
+      "loc": "078",
+      "team": "CustomerService"
+    },
+    {
+      "disposition": "MSP Provider Initial Hold",
+      "loc": "041",
+      "team": "CustomerService"
+    },
+    {
+      "letterType": "Misdirected Prior Authorization Receipt",
+      "disposition": "Dismissal/Un-Processable",
+      "loc": "074",
+      "team": "PriorAuth"
+    },
+    {
+      "letterType": "affirmed decision letter",
+      "disposition": "Initial Request Affirmed/Favorable",
+      "loc": "070",
+      "team": "PriorAuth"
+    },
+    {
+      "letterType": "affirmed decision letter",
+      "disposition": "Resubmission Affirmed/Favorable",
+      "loc": "080",
+      "team": "PriorAuth"
+    },
+    {
+      "letterType": "affirmed decision letter",
+      "disposition": "Expedited Affirmed/Favorable",
+      "loc": "084",
+      "team": "PriorAuth"
+    },
+    {
+      "letterType": "affirmed decision letter",
+      "disposition": "General",
+      "loc": "077",
+      "team": "PriorAuth"
+    },
+    {
+      "letterType": "non-affirmed decision letter",
+      "disposition": "Initial Request Non-Affirmed/Unfavorable",
+      "loc": "071",
+      "team": "PriorAuth"
+    },
+    {
+      "letterType": "non-affirmed decision letter",
+      "disposition": "Resubmission Non-Affirmed/Unfavorable",
+      "loc": "081",
+      "team": "PriorAuth"
+    },
+    {
+      "letterType": "non-affirmed decision letter",
+      "disposition": "Initial Request Incomplete",
+      "loc": "079",
+      "team": "PriorAuth"
+    },
+    {
+      "letterType": "non-affirmed decision letter",
+      "disposition": "Resubmission Incomplete",
+      "loc": "082",
+      "team": "PriorAuth"
+    },
+    {
+      "letterType": "non-affirmed decision letter",
+      "disposition": "Expedited Non-Affirmed/Unfavorable",
+      "loc": "085",
+      "team": "PriorAuth"
+    },
+    {
+      "letterType": "non-affirmed decision letter",
+      "disposition": "Expedited Incomplete",
+      "loc": "086",
+      "team": "PriorAuth"
+    },
+    {
+      "letterType": "non-affirmed decision letter",
+      "disposition": "General",
+      "loc": "077",
+      "team": "PriorAuth"
+    }
+  ],
+  "letterSolutationCodes": [],
+  "DECI": {
+    "Redetermination": [
+      {
+        "value": "A",
+        "label": "A-Affirmation"
+      },
+      {
+        "value": "D",
+        "label": "D-Dismissal"
+      },
+      {
+        "value": "F",
+        "label": "F-Full Reversal"
+      },
+      {
+        "value": "I",
+        "label": "I-Dismissed Incomplete"
+      },
+      {
+        "value": "L",
+        "label": "L-Affirmed/Change in Liability"
+      },
+      {
+        "value": "P",
+        "label": "P-Partial Reversal"
+      },
+      {
+        "value": "T",
+        "label": "T-Transfer"
+      },
+      {
+        "value": "W",
+        "label": "W-Withdrawal"
+      }
+    ],
+    "Non Clerical Reopening": [
+      {
+        "value": "B",
+        "label": "B-FAVORABLE DECISION – PRE REVIEW"
+      },
+      { "value": "M", "label": "M-FAVORABLE DECISION – POST REVIEW" },
+      { "value": "H", "label": "H-FAVORABLE DECISION – POST HEARING" },
+      { "value": "N", "label": "N-NO CHANGE – PRE REVIEW" },
+      { "value": "O", "label": "O-NO CHANGE – POST REVIEW" },
+      { "value": "Q", "label": "Q-NO CHANGE – POST HEARING" },
+      { "value": "U", "label": "U-UNFAVORABLE – PRE-REVIEW" },
+      { "value": "V", "label": "V-UNFAVORABLE – POST-REVIEW" },
+      { "value": "Y", "label": "Y-UNFAVORABLE – POST-HEARING" },
+      { "value": "2", "label": "2-COLUMN 2 PRE-REVIEW RE Adjustment" },
+      { "value": "3", "label": "3-COLUMN 3 POST-REVIEW  RE Adjustment" },
+      { "value": "4", "label": "4-COLUMN 4 POST-HEARING RE Adjustment" }
+    ],
+    "Inquiry": [
+      {
+        "value": "E",
+        "label": "E-Telephone"
+      },
+      {
+        "value": "K",
+        "label": "K-Walk in"
+      },
+      { "value": "R", "label": "R-Written Inquiry" }
+    ],
+    "QIC": [
+      {
+        "value": "A",
+        "label": "A-Affirmation"
+      },
+      {
+        "value": "C",
+        "label": "C-Change in Liability QIC Computed Amount"
+      },
+      {
+        "value": "D",
+        "label": "D-Dismissal"
+      },
+      {
+        "value": "F",
+        "label": "F-Full Reversal"
+      },
+      {
+        "value": "G",
+        "label": "G-Full Reversal QIC Computed Amount"
+      },
+      {
+        "value": "L",
+        "label": "L-Affirmed/Change in Liability"
+      },
+      {
+        "value": "P",
+        "label": "P-Partial Reversal"
+      },
+      {
+        "value": "S",
+        "label": "S-PARTIAL REVERSAL– QIC COMPUTED AMOUNT"
+      },
+      {
+        "value": "W",
+        "label": "W-Withdrawal"
+      }
+    ],
+    "ALJ": [
+      {
+        "value": "A",
+        "label": "A-Affirmation"
+      },
+      {
+        "value": "D",
+        "label": "D-Dismissal"
+      },
+      {
+        "value": "F",
+        "label": "F-Full Reversal"
+      },
+      {
+        "value": "L",
+        "label": "L-Affirmation Change in Liability"
+      },
+      {
+        "value": "L",
+        "label": "L-Affirmed/Change in Liability"
+      },
+      {
+        "value": "P",
+        "label": "P-Partial Reversal"
+      },
+      {
+        "value": "W",
+        "label": "W-Withdrawal"
+      }
+    ],
+    "General Information": [
+      {
+        "value": "E",
+        "label": "E-1565 line 25 Telephone"
+      },
+      {
+        "value": "K",
+        "label": "K-1565 line 26 Walk in"
+      },
+      {
+        "value": "R",
+        "label": "R-1565 line 27 Written Inquiry"
+      }
+    ],
+    "Reopening": [
+      {
+        "value": "A",
+        "label": "A-Affirmation"
+      },
+      {
+        "value": "D",
+        "label": "D-Dismissal"
+      },
+      {
+        "value": "F",
+        "label": "F-Full Reversal"
+      },
+      {
+        "value": "I",
+        "label": "I-Dismissed Incomplete"
+      },
+      {
+        "value": "L",
+        "label": "L-Affirmed/Change in Liability"
+      },
+      {
+        "value": "P",
+        "label": "P-Partial Reversal"
+      },
+      {
+        "value": "T",
+        "label": "T-Transfer"
+      },
+      {
+        "value": "W",
+        "label": "W-Withdrawal"
+      },
+      {
+        "value": "B",
+        "label": "B-FAVORABLE DECISION – PRE REVIEW"
+      },
+      { "value": "M", "label": "M-FAVORABLE DECISION – POST REVIEW" },
+      { "value": "H", "label": "H-FAVORABLE DECISION – POST HEARING" },
+      { "value": "N", "label": "N-NO CHANGE – PRE REVIEW" },
+      { "value": "O", "label": "O-NO CHANGE – POST REVIEW" },
+      { "value": "Q", "label": "Q-NO CHANGE – POST HEARING" },
+      { "value": "U", "label": "U-UNFAVORABLE – PRE-REVIEW" },
+      { "value": "V", "label": "V-UNFAVORABLE – POST-REVIEW" },
+      { "value": "Y", "label": "Y-UNFAVORABLE – POST-HEARING" },
+      { "value": "2", "label": "2-COLUMN 2 PRE-REVIEW RE Adjustment" },
+      { "value": "3", "label": "3-COLUMN 3 POST-REVIEW  RE Adjustment" },
+      { "value": "4", "label": "4-COLUMN 4 POST-HEARING RE Adjustment" }
+    ]
+  }
+}

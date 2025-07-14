@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "anand pilli",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "dev": "nodemon server",
+    "build": "npm run prepare-build",
+    "prepare-build": "shx mkdir -p ../../build/server && shx cp -r config database lib middlewares routes startup server.js ../../build/server",
+    "clean": "rimraf build"
+  },
+  "dependencies": {
+    "axios": "^1.10.0",
+    "compression": "^1.8.0",
+    "config": "^4.0.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "lodash": "^4.17.21",
+    "multer": "^2.0.1",
+    "pino": "^9.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

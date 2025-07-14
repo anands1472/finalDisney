@@ -1,0 +1,15 @@
+{
+  "LOGGER_LEVEL": "debug",
+  "PORT": "8003",
+  "APP_NAME": "vison studios",
+  "LOGIN_HEADERS": {
+    "Authorization": "BEARER /Shgb8YMb9qhm8C37uHvRDNskOn3lyjAlGft3r6wNKk=",
+    "organisation": "GWS",
+    "applicationName": "PriorAuthConnect",
+    "Content-Type": "application/json",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Headers": "Content-Type",
+    "Access-Control-Allow-Credentials": true,
+    "Access-Control-Allow-Methods": "POST"
+  }
+}

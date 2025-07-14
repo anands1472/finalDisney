@@ -1,0 +1,146 @@
+{
+  "STAGE": {
+    "WDW": {
+      "WDW_APP_NAMES": [
+        { "label": "Zoom Scheduler", "value": "zoom_scheduler" },
+        { "label": "TaskFlow Manager", "value": "taskflow_manager" },
+        { "label": "QuickDocs", "value": "quickdocs" },
+        { "label": "NotifiX", "value": "notifix" },
+        { "label": "BudgetBuddy", "value": "budgetbuddy" },
+        { "label": "TimeTracker Pro", "value": "timetracker_pro" },
+        { "label": "ChatSync", "value": "chatsync" },
+        { "label": "DesignHub", "value": "designhub" },
+        { "label": "InsightDash", "value": "insightdash" },
+        { "label": "SecureVault", "value": "securevault" }
+      ],
+      "WDW_APP_URLS": {
+        "zoom_scheduler": [
+          {
+            "label": "https://dummyjson.com/posts/1",
+            "value": "https://dummyjson.com/posts/1",
+            "getApi":"https://dummyjson.com/todos"
+          },
+          {
+            "label": "https://api.example.com/projects/trilotech/delete",
+            "value": "https://api.example.com/projects/trilotech/delete",
+            "getApi":"https://dummyjson.com/todos"
+          },
+
+          {
+            "label": "https://api.example.com/projects/corelink/delete",
+            "value": "https://api.example.com/projects/corelink/delete"
+          },
+          {
+            "label": "https://api.example.com/projects/nimbusai/delete",
+            "value": "https://api.example.com/projects/nimbusai/delete"
+          },
+          {
+            "label": "https://api.example.com/projects/fluxon/delete",
+            "value": "https://api.example.com/projects/fluxon/delete"
+          },
+          {
+            "label": "https://api.example.com/projects/stratusbase/delete",
+            "value": "https://api.example.com/projects/stratusbase/delete"
+          }
+        ],
+        "taskflow_manager": [
+          {
+            "label": "https://api.example.com/projects/zenithworks/delete",
+            "value": "https://api.example.com/projects/zenithworks/delete"
+          },
+          {
+            "label": "https://api.example.com/projects/brightlayer/delete",
+            "value": "https://api.example.com/projects/brightlayer/delete"
+          }
+        ],
+        "quickdocs": [
+          {
+            "label": "https://api.example.com/projects/edgehive/delete",
+            "value": "https://api.example.com/projects/edgehive/delete"
+          },
+          {
+            "label": "https://api.example.com/projects/veloxsoft/delete",
+            "value": "https://api.example.com/projects/veloxsoft/delete"
+          }
+        ],
+        "notifix": [],
+        "budgetbuddy": [],
+        "timetracker_pro": [],
+        "chatsync": [],
+        "designhub": [],
+        "insightdash": [],
+        "securevault": []
+      }
+    },
+    "DLR": {
+      "DLR_APP_NAMES": [
+        { "label": "Pixelon", "value": "pixelon" },
+        { "label": "NebulaTech", "value": "nebulatech" },
+        { "label": "AeroCore", "value": "aerocore" },
+        { "label": "Synthro", "value": "synthro" },
+        { "label": "VoltEdge", "value": "voltedge" },
+        { "label": "LumoLabs", "value": "lumolabs" },
+        { "label": "Nexora", "value": "nexora" },
+        { "label": "Qubiq", "value": "qubiq" },
+        { "label": "Zentix", "value": "zentix" },
+        { "label": "Orbio", "value": "orbio" }
+      ],
+      "DLR_APP_URLS": {
+        "pixelon": [
+          {
+            "label": "https://api.example.com/projects/quantix/delete",
+            "value": "https://api.example.com/projects/quantix/delete"
+          },
+
+          {
+            "label": "https://api.example.com/projects/turboweb/delete",
+            "value": "https://api.example.com/projects/turboweb/delete"
+          },
+          {
+            "label": "https://api.example.com/projects/optixzone/delete",
+            "value": "https://api.example.com/projects/optixzone/delete"
+          },
+          {
+            "label": "https://api.example.com/projects/neuronet/delete",
+            "value": "https://api.example.com/projects/neuronet/delete"
+          },
+          {
+            "label": "https://api.example.com/projects/arcadehub/delete",
+            "value": "https://api.example.com/projects/arcadehub/delete"
+          }
+        ],
+        "nebulatech": [
+          {
+            "label": "https://api.example.com/projects/firestone/delete",
+            "value": "https://api.example.com/projects/firestone/delete"
+          },
+          {
+            "label": "https://api.example.com/projects/skyreach/delete",
+            "value": "https://api.example.com/projects/skyreach/delete"
+          },
+          {
+            "label": "https://api.example.com/projects/alphadash/delete",
+            "value": "https://api.example.com/projects/alphadash/delete"
+          }
+        ],
+        "aerocore": [
+          {
+            "label": "https://api.example.com/projects/omnivault/delete",
+            "value": "https://api.example.com/projects/omnivault/delete"
+          },
+          {
+            "label": "https://api.example.com/projects/cyberlynx/delete",
+            "value": "https://api.example.com/projects/cyberlynx/delete"
+          }
+        ],
+        "synthro": [],
+        "voltedge": [],
+        "lumolabs": [],
+        "nexora": [],
+        "qubiq": [],
+        "zentix": [],
+        "orbio": []
+      }
+    }
+  }
+}

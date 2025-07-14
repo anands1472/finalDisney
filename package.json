@@ -1,0 +1,41 @@
+{
+  "name": "visiontools",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anands1472/finalDisney.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anands1472/finalDisney/issues"
+  },
+  "homepage": "https://github.com/anands1472/finalDisney#readme",
+  "description": "",
+  "workspaces": [
+    "packages/client",
+    "packages/server"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:client": "npm run build -w client",
+    "build:gateway": "npm run build -w server",
+    "build": "npm run build --workspace=packages/client && npm run build --workspace=packages/server",
+    "client": "npm run start -w client",
+    "gateway": "npm run start -w server",
+    "start": "concurrently \"npm run gateway\" \"npm run client\"",
+    "lint": "node ./scripts/scripts.js lint",
+    "format": "node ./scripts/scripts.js format",
+    "clean": "npm run clean --workspaces --parallel",
+    "clear:cache": "npm cache clear --force"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0",
+    "npm-run-all": "^4.1.5",
+    "shx": "^0.4.0"
+  },
+  "dependencies": {
+    "react-redux": "^9.2.0"
+  }
+}

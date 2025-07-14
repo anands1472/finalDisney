@@ -1,0 +1,14 @@
+{
+  "environments": [
+    { "label": "STAGE", "value": "STAGE" },
+    { "label": "LATEST", "value": "LATEST" },
+    { "label": "PROD", "value": "PROD" }
+  ],
+  "brands": [
+    { "label": "WDW", "value": "WDW" },
+    { "label": "DLR", "value": "DLR" },
+    { "label": "ALU", "value": "ALU" },
+    { "label": "HONG KONG", "value": "HK" },
+    { "label": "HILTON", "value": "HILTON" }
+  ]
+}
