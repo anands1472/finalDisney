@@ -18,13 +18,14 @@
     "packages/server"
   ],
   "scripts": {
+    "prepare-build": "node scripts/prepare-build.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:client": "npm run build -w client",
-    "build:gateway": "npm run build -w server",
+    "build:server": "npm run build -w server",
     "build": "npm run build --workspace=packages/client && npm run build --workspace=packages/server",
     "client": "npm run start -w client",
-    "gateway": "npm run start -w server",
-    "start": "concurrently \"npm run gateway\" \"npm run client\"",
+    "server": "npm run start -w server",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
     "lint": "node ./scripts/scripts.js lint",
     "format": "node ./scripts/scripts.js format",
     "clean": "npm run clean --workspaces --parallel",
